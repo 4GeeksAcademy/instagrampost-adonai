@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -51,9 +51,9 @@ body {
     cursor: pointer;
     font-size: 18px;
 }
-
-.post-img img {
-    width: 100%;
+.icon{font-size: 40px;}
+post-img {
+    min-width: 100%;
     display: block;
 }
 
@@ -88,4 +88,11 @@ body {
 .post-info p {
     margin-bottom: 10px;
     line-height: 1.5;
+}
+.profile-info{
+    padding-left: 6px;
+}
+img{
+    min-width: 100%;
+    height: auto;
 }
